@@ -3,11 +3,18 @@
     "description": "Control Extension for Orchestra Platform",
     "keywords": ["orchestra-platform", "orchestral", "extension", "laravel", "rbac", "timezone", "theme"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "name": "pagemanager",
+            "url": "http://zulu1719.startdedicated.net:7990/scm/lif/pagemanager.git"
+        }
+    ],
     "authors": [
         {
             "name": "Mior Muhammad Zaki",
             "email": "crynobone@gmail.com",
-            "homepage": "https://github.com/crynobone"
+            "homepage": "http://zulu1719.startdedicated.net:7990/scm/lif/pagemanager.git"
         }
     ],
     "autoload": {
