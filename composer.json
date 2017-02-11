@@ -1,0 +1,37 @@
+{
+    "name": "lifesat/pagemanager",
+    "description": "Control Extension for Orchestra Platform",
+    "keywords": ["orchestra-platform", "orchestral", "extension", "laravel", "rbac", "timezone", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mior Muhammad Zaki",
+            "email": "crynobone@gmail.com",
+            "homepage": "https://github.com/crynobone"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "resources/database/migrations"
+        ],
+        "psr-4": {
+            "LifeSat\\PageManager\\" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "orchestra/contracts": "~3.3.0",
+        "orchestra/extension": "~3.3.0",
+        "orchestra/support": "~3.3.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.1",
+        "orchestra/foundation": "~3.3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.3-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}

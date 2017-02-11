@@ -1,0 +1,11 @@
+{
+    "name": "PageManager",
+    "description": "Orchestra Platform Control Extension",
+    "author": "Mior Muhammad Zaki",
+    "url": "https://github.com/orchestral/control",
+    "version": "3.3.0@dev",
+    "provides": [
+        "LifeSat\\PageManager\\PageManagerServiceProvider"
+    ],
+    "plugin": "LifeSat\\PageManager\\PageManagerPlugin"
+}
